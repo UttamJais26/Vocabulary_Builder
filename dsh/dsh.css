@@ -1,0 +1,96 @@
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #f5f1ff;
+}
+
+header {
+    padding: 20px;
+    background-color: white;
+}
+
+header a {
+    text-decoration: none;
+    color: #6542c0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Main layout */
+
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+}
+
+/* Left side - 75% */
+
+.search-section {
+    width: 75%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.search-section h1 {
+    color: #25213b;
+}
+
+.search-section p {
+    color: gray;
+}
+
+/* Search bar */
+
+.search-box {
+    display: flex;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    padding: 15px 25px;
+    background-color: #754be8;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Result */
+
+.result {
+    margin-top: 40px;
+}
+
+/* Right side - 25% */
+
+.word-section {
+    width: 25%;
+    background-color: #e9e1ff;
+    padding: 25px;
+    border-radius: 12px;
+    height: fit-content;
+}
+
+
+
+.word-section h3 {
+    font-size: 25px;
+    color: #25213b;
+}
+
+.word-section p {
+    color: #555;
+}
+

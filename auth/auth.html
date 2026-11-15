@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication - Vocabulary Builder</title>
+    <link rel="stylesheet" href="auth.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div id="signin">
+
+            <h1>Welcome Back!</h1>
+            <p>Sign in to continue learning new words.</p>
+
+            <form action="#" method="POST">
+
+                <label>Email</label>
+                <input type="email" name="email"
+                       placeholder="Enter your email" required>
+
+                <label>Password</label>
+                <input type="password" name="password"
+                       placeholder="Enter your password" required>
+
+               
+
+                <button type="submit">Sign In</button>
+
+            </form>
+
+            <p class="switch">
+                Don't have an account?
+                <a href="#" onclick="showSignup()">Sign Up</a>
+            </p>
+
+        </div>
+
+
+        <div id="signup" style="display: none;">
+
+            <h1>Create Account</h1>
+            <p>Join us and improve your vocabulary.</p>
+
+            <form action="#" method="POST">
+
+                <label>Full Name</label>
+                <input type="text" name="name"
+                       placeholder="Enter your name" required>
+
+                <label>Email</label>
+                <input type="email" name="email"
+                       placeholder="Enter your email" required>
+
+                <label>Password</label>
+                <input type="password" name="password"
+                       placeholder="Create a password" required>
+
+                <label>Confirm Password</label>
+                <input type="password" name="confirm_password"
+                       placeholder="Confirm your password" required>
+
+                <button type="submit">Create Account</button>
+
+            </form>
+
+            <p class="switch">
+                Already have an account?
+                <a href="#" onclick="showSignin()">Sign In</a>
+            </p>
+
+        </div>
+
+        <a href="../index/index.html">Back to Home</a>
+
+    </div>
+
+<script src="auth.js"></script>
+  
+
+</body>
+
+</html>
